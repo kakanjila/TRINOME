@@ -1,2 +1,0 @@
--- Initial SQL schema for the project
--- This file will contain the table definitions.
