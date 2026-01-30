@@ -1,0 +1,38 @@
+Projet Framework Trinome
+
+	-> Projet monde reel (ex: Reservation voiture)
+	-> A deployer sur RunWay/Requi 
+	-> Un seul branche
+
+1. Sprint 0:
+	- BDD relationnelle: aux choix
+	- Back-Office: Framework (sprint 1 -> 11)
+		. Backend
+		. Frontend
+		-> Protegee
+
+	- Front-Office: Spring-boot
+		. Backend: Spring-boot
+		. Frontend: SpringMVC (Vue ou React)
+		-> Public
+
+	- A faire: 
+		. Mise en place de l'environement (structure, deploy, URL, ...) 
+		. SQL ??? -> 
+
+	Branche de Git:
+
+main -----------.---------------.-----------------------------------------------.-----------------------.---------------.-------------------------------.-----------------------.
+		|		|						|			|		|				|			|
+		|		|						|			|		|				| (Cherry Pick)		|
+		|	Features 2 (base local ou base ensemble) ---------------> Merge Request ---------		|				|		   ||RELEASE||(git)
+		|								|				        |	    			|		    
+		|								|				    ||STAGING||(base local)<-------------- Merge
+		|								|				      	   |				|
+	Features 1 (base local ou base ensemble) --------------------------------					   |				|
+															  Fix ---------------------------
+
+
+relesae deploy to prod
+															  
+															  
